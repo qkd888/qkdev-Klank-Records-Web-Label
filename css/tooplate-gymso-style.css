@@ -1,9 +1,6 @@
 /*
-
 Tooplate 2119 Gymso Fitness
-
 https://www.tooplate.com/view/2119-gymso-fitness
-
 */
 
 @font-face {
@@ -31,14 +28,14 @@ https://www.tooplate.com/view/2119-gymso-fitness
 }
 
 :root {
-  --primary-color: #2155ce;
-  --white-color: #ffffff;
-  --dark-color: #171819;
-  --about-bg-color: whitesmoke;
+  --primary-color: #2180ce;
+  --white-color: rgb(255, 255, 255);
+  --dark-color: #414141;
+  --about-bg-color: rgb(212, 212, 212);
 
-  --gray-color: #909090;
+  --gray-color: #fffdfd;
   --link-color: #404040;
-  --p-color: #666262;
+  --p-color: #2a2a2a;
 
   --base-font-family: "Plain", sans-serif;
   --font-weight-bold: bold;
@@ -66,7 +63,6 @@ body {
 }
 
 /*---------------------------------------
-
      TYPOGRAPHY              
   -----------------------------------------*/
 /*-----------------logo on navbar----------*/
@@ -116,7 +112,7 @@ h5 {
 }
 
 h6 {
-  color: var(--gray-color);
+  color: var(--white-color);
   font-size: var(--h6-font-size);
   line-height: inherit;
   margin: 0;
@@ -368,7 +364,7 @@ a:focus {
   -----------------------------------------*/
 
 .hero {
-  background-image: url("../images/bg-hreo.jpg");
+  background-image: url("../images/class/bg-hero.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
