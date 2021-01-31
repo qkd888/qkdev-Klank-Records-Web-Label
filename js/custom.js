@@ -26,7 +26,7 @@
     });    
   });
 
-  //--------------- spinning KR logo----------------------------
+  //--------------- Spinning KR Logo----------------------------
 
 const image = document.querySelector('#logo');
 
