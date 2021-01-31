@@ -28,7 +28,7 @@
 
   //--------------- spinning KR logo----------------------------
 
-const image = document.querySelector('img');
+const image = document.querySelector('#logo');
 
 let spinning = true;
 degrees = 0;
