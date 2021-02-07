@@ -89,6 +89,7 @@ h2 {
   font-size: var(--h2-font-size);
   font-weight: var(--font-weight-bold);
   letter-spacing: -2px;
+  color: white;
 }
 
 h3 {
@@ -114,7 +115,7 @@ h6 {
 }
 
 p {
-  color: var(--p-color);
+  color: white;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
   line-height: 1.5em;
@@ -169,7 +170,7 @@ strong {
 }
 
 .bg-color {
-  background: var(--primary-color);
+  background-color: #0c0a0b;
   color: var(--white-color);
 }
 
@@ -225,6 +226,7 @@ a:focus {
 
 .modal-content {
   padding: 2rem 3rem;
+  background-color: #0c0a0b;
 }
 
 .modal-header,
@@ -243,7 +245,7 @@ a:focus {
   -----------------------------------------*/
 
 .feature {
-  background: var(--dark-color);
+  background: #0c0a0b;
   padding: 5rem 0;
 }
 
@@ -371,7 +373,9 @@ a:focus {
 /*---------------------------------------
      CLASS               
   -----------------------------------------*/
-
+#class {
+  background-color: #0c0a0b;
+}
 .class-info {
   background: var(--white-color);
   box-shadow: 6px 0 38px rgba(20, 20, 20, 0.1);
@@ -391,7 +395,7 @@ a:focus {
 .class-price {
   background: var(--primary-color);
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--dark-color);
   font-weight: var(--font-weight-bold);
   display: block;
   position: absolute;
@@ -404,11 +408,11 @@ a:focus {
 }
 
 /*---------------------------------------
-     SCHEDULE             
+     CATALOGUE             
   -----------------------------------------*/
 
 .schedule {
-  background: var(--dark-color);
+  background: #0c0a0b;
 }
 
 .schedule-table {
@@ -472,7 +476,7 @@ a:focus {
   -----------------------------------------*/
 
 .about {
-  background: var(--about-bg-color);
+  background: #0c0a0b;
 }
 
 .about-working-hours {
@@ -556,14 +560,21 @@ button#submit-button:hover {
 .google-map iframe {
   width: 100%;
 }
+.contact {
+  background-color: #0c0a0b;
+}
 
 /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
-
+.copyright-text {
+  color: white;
+}
 .site-footer {
   border-top: 1px solid #efebeb;
   padding: 3rem 0;
+  background-color: #0c0a0b;
+  color: white;
 }
 
 .site-footer a {
