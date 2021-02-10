@@ -594,7 +594,9 @@ button#submit-button:hover {
 .site-footer .fa {
   color: var(--primary-color);
 }
-
+#qkdev {
+  color: white;
+}
 /*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/
