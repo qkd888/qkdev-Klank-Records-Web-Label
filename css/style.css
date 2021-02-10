@@ -406,6 +406,10 @@ a:focus {
   line-height: 3.5rem;
   text-align: center;
 }
+#h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
 
 /*---------------------------------------
      CATALOGUE             
@@ -472,7 +476,7 @@ a:focus {
 }
 
 /*---------------------------------------
-      ABOUT & TEAM            
+      ABOUT            
   -----------------------------------------*/
 
 .about {
