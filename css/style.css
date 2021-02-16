@@ -374,8 +374,10 @@ a:focus {
      CLASS               
   -----------------------------------------*/
 #class {
+  
   background-color: #0c0a0b;
 }
+
 .class-info {
   background: var(--white-color);
   box-shadow: 6px 0 38px rgba(20, 20, 20, 0.1);
