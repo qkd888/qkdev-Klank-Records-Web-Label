@@ -226,7 +226,8 @@ a:focus {
 
 .modal-content {
   padding: 1.5rem 9.5rem;
-  background-color: #02050e;
+  background-color: #05070f;
+  letter-spacing:1.5rem;
 }
 
 .modal-header,
@@ -246,7 +247,7 @@ a:focus {
 
 .feature {
   background: #02050e;
-  padding: 12rem 1em;
+  padding: 12rem 0.5rem;
 }
 
 /*---------------------------------------
