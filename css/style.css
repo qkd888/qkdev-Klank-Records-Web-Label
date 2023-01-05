@@ -261,8 +261,8 @@ a:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1.0rem;
+  padding-left: 1.0rem;
 }
 
 .navbar-brand {
