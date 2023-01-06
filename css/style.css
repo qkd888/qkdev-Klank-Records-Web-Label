@@ -225,7 +225,10 @@ a:focus {
   -----------------------------------------*/
 
 .modal-content {
-  padding: 1.5rem 9.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
   background-color: #05070f;
   letter-spacing:1.5rem;
 }
@@ -233,10 +236,15 @@ a:focus {
 .modal-header,
 .modal-body,
 .modal-footer {
-  border: 0;
-  padding: 0;
+  
 }
-
+.senddemo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #02050e;
+}
 .membership-form a {
   color: var(--primary-color);
 }
@@ -365,7 +373,7 @@ a:focus {
   -----------------------------------------*/
 
 .hero {
-  background-image: url("../images/class/bg-hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.286), rgba(0, 0, 0, 0.802)), url("../images/class/greybg.jpg") no-repeat;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
