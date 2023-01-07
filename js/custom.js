@@ -37,6 +37,6 @@ setInterval(() => {
     degrees++;
     image.style.transform = 'rotate(' + degrees + 'deg)';
 }, 12.5);
-
+ 
     
 
