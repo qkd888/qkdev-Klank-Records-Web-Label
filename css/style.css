@@ -233,11 +233,6 @@ a:focus {
   letter-spacing:1.5rem;
 }
 
-.modal-header,
-.modal-body,
-.modal-footer {
-  
-}
 .senddemo {
   position: relative;
   display: flex;
@@ -597,9 +592,13 @@ button#submit-button:hover {
   color: white;
 }
 .site-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-top: 1px solid #efebeb;
-  padding: 3rem 0;
-  background-color: #02050e;
+  padding: 0rem 0;
+  background-color: #000000;
   color: white;
 }
 
@@ -607,6 +606,7 @@ button#submit-button:hover {
   color: var(--p-color);
   font-weight: var(--font-weight-light);
 }
+
 
 .site-footer p {
   font-size: var(--base-font-size);
