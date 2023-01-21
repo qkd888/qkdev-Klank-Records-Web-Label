@@ -24,6 +24,7 @@
 
 :root {
   --primary-color: #2180ce;
+  --wtf-link-color: #2dce21;
   --white-color: rgb(255, 255, 255);
   --dark-color: #414141;
   --about-bg-color: rgb(212, 212, 212);
@@ -243,6 +244,25 @@ a:focus {
 
 .membership-form a {
   color: var(--primary-color);
+}
+
+.modal-body {
+  word-spacing: 3px;
+}
+
+.wtf-link {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.wtf-link:hover {
+  transform: scale(1.5%);
+  transition: all 0.4s ease-in-out;
+  color: var(--wtf-link-color);
+}
+
+.close {
+  color: white;
 }
 
 /*---------------------------------------
