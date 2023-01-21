@@ -369,13 +369,26 @@ a:focus {
   -----------------------------------------*/
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.286), rgba(0, 0, 0, 0.802)), url("../images/class/greybg.jpg") no-repeat;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.286), rgba(0, 0, 0, 0.802)),
+url("../images/class/greybg.jpg") no-repeat; */
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   vertical-align: middle;
   min-height: 100vh;
   position: relative;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 /*---------------------------------------
