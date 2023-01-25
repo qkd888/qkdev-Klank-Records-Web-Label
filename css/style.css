@@ -65,7 +65,7 @@ body {
 
 #logo {
   padding: 1px;
-  width: 5%;
+  width: 6%;
 }
 
 h1,
@@ -285,8 +285,8 @@ a:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 1.0rem;
-  padding-left: 1.0rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .navbar-brand {
@@ -315,7 +315,6 @@ a:focus {
 .navbar .social-icon li a {
   color: var(--white-color);
 }
-
 
 .navbar-toggler {
   border: 0;
@@ -420,7 +419,6 @@ url("../images/class/greybg.jpg") no-repeat; */
 }
 
 #class {
-
   background-color: #02050e;
 }
 
@@ -645,7 +643,6 @@ button#submit-button:hover {
   color: var(--p-color);
   font-weight: var(--font-weight-light);
 }
-
 
 .site-footer p {
   font-size: var(--base-font-size);
