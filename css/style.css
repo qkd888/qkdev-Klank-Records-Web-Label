@@ -66,6 +66,7 @@ body {
 #logo {
   padding: 1px;
   width: 6%;
+  border-radius: 100%;
 }
 
 h1,
@@ -388,17 +389,17 @@ a:focus {
   -----------------------------------------*/
 
 .hero {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.286), rgba(0, 0, 0, 0.802)),
-url("../images/class/greybg.jpg") no-repeat; */
+  background: linear-gradient(rgba(0, 0, 0, 0.286), rgba(0, 0, 0, 0.802)),
+    url("../images/class/newkrlogo.jpg") no-repeat;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  vertical-align: middle;
+  vertical-align: center;
   min-height: 100vh;
   position: relative;
 }
 
-#background-video {
+/* #background-video {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -408,7 +409,7 @@ url("../images/class/greybg.jpg") no-repeat; */
   top: 0;
   bottom: 0;
   z-index: -1;
-}
+} */
 
 /*---------------------------------------
      CLASS               
